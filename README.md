@@ -6,8 +6,12 @@ Dentro del proyecto se encuentran las clases java y los respectivos layout con l
 Sin embargo, aquí se anexa una lista de la actividad (la clase java) que realizó cada miembro del equipo, los layouts llevan el mismo 
 nombre que las clases java.
 
-Castillo Barrón Fernando Daniel: Main.java
-Castillo Ramírez Saúl: Conectar.java
+Castillo Barrón Fernando Daniel: Main.java 
+
+Castillo Ramírez Saúl: Conectar.java 
+
 Hernández Cruz Saúl Ulises: Bienvenida.java
-López Trujillo Andrea Itzel: presetChoice.java
-Moreno Beltrán Laura Elena: Ayuda.java
+
+López Trujillo Andrea Itzel: presetChoice.java 
+
+Moreno Beltrán Laura Elena: Ayuda.java 
