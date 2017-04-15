@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Synth</string>
+    <string name="title_activity_main">Main</string>
+    <string-array name="opcionesAyuda">
+        <item>Selecciona una opción</item>
+        <item>¿Cómo conectar mi teléfono a Synth?</item>
+        <item>Guardar un preset</item>
+        <item>Abrir un preset</item>
+        <item>¿Cómo funcionan los filtros?</item>
+    </string-array>
+</resources>

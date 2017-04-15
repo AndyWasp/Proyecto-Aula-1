@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="ipn.marsoft.a6im7.synth.Main">
+    <item
+        android:id="@+id/Principal"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Principal" />
+    <item
+        android:id="@+id/Conectar"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Conectar" />
+    <item
+        android:id="@+id/Ayuda"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Ayuda" />
+    <item
+        android:id="@+id/Presets"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Presets Guardados" />
+
+</menu>

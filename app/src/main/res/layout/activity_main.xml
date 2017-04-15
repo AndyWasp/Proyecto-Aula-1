@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/filtro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Filtro"
+        android:layout_marginLeft="65dp"
+        android:layout_marginStart="65dp"
+        android:layout_alignBaseline="@+id/volumen"
+        android:layout_alignBottom="@+id/volumen"
+        android:layout_alignLeft="@+id/skFiltro"
+        android:layout_alignStart="@+id/skFiltro" />
+    <TextView
+        android:id="@+id/volumen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Volumen"
+        android:layout_marginTop="74dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/skFiltro"
+        android:layout_toEndOf="@+id/skFiltro"
+        android:layout_marginLeft="59dp"
+        android:layout_marginStart="59dp" />
+
+    <SeekBar
+        android:id="@+id/skFiltro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="93dp"
+        android:minHeight="0dp"
+        android:minWidth="150dp"
+        android:rotation="270"
+        android:layout_below="@+id/filtro"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:max="9900"/>
+
+    <SeekBar
+        android:id="@+id/skVolumen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="150dp"
+        android:rotation="270"
+        android:layout_alignTop="@+id/skFiltro"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:max="100"/>
+
+    <TextView
+        android:id="@+id/filtroValor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="100"
+        android:layout_marginTop="111dp"
+        android:layout_below="@+id/skFiltro"
+        android:layout_alignRight="@+id/filtro"
+        android:layout_alignEnd="@+id/filtro" />
+    <TextView
+        android:id="@+id/volumenValor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:layout_marginRight="22dp"
+        android:layout_marginEnd="22dp"
+        android:layout_alignBaseline="@+id/filtroValor"
+        android:layout_alignBottom="@+id/filtroValor"
+        android:layout_alignRight="@+id/volumen"
+        android:layout_alignEnd="@+id/volumen"/>
+
+    <Button
+        android:id="@+id/boton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guardar Preset"
+        android:layout_below="@+id/filtroValor"
+        android:layout_toRightOf="@+id/filtroValor"
+        android:layout_toEndOf="@+id/filtroValor"
+        android:layout_marginTop="65dp" />
+</RelativeLayout>
